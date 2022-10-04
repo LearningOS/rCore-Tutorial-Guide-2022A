@@ -14,7 +14,7 @@ jobs:
         with:
           python-version: "3.8.10"
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r guide/requirements.txt
 
       - name: build doc
         run: make -C guide html
