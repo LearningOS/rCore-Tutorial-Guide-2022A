@@ -7,7 +7,7 @@ Lab5 编程作业
 .. warning::
 
    本次实验框架变动较大，且改动较为复杂，为降低同学们的工作量，本次实验不要求合并之前的实验内容，
-   只需通过 ch8 的全部测例和其他章节的基础测例即可。你可以参考  `lab5(os8)参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os8-ref>`_ 上完成以下作业。
+   只需通过 ch8 的全部测例和其他章节的基础测例即可。你可以参考  `lab5(os8)参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os8>`_ 上完成以下作业。
 
 .. note::
 
@@ -84,12 +84,12 @@ Lab5 编程作业
 实验要求
 +++++++++++++++++++++++++++++++++++++++++
 
--   `lab5(os8)参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os8-ref>`_ 
+-   `lab5(os8)参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os8>`_ 
 - 实验目录在 ``os8`` 。
 
 - 开发并通过所有测例
 
-在 ``YOUR_LAB5_REPO_DIR`` 下进行编码（可学习参考 ``os8-ref/src`` 目录下的源代码，并在 ``os8/src`` 中完成编码），并进行编译测试。
+在 ``YOUR_LAB5_REPO_DIR`` 下进行编码（可学习参考 ``os8/src`` 目录下的源代码，并在 ``os8/src`` 中完成编码），并进行编译测试。
 
 .. note::
 

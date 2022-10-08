@@ -53,7 +53,7 @@ Docker方式进行本地OS开发环境配置
 
    使用方法如下（以 Ubuntu20.04 为例）：
 
-   1.  以 ``lab0-0`` 为例，下载克隆本次的实验repo 或 https://github.com/LearningOS/rust-based-os-comp2022.git ； 在 ``lab0-0`` repo的根目录下，执行 ``make build_docker`` 来建立基于docker的开发环境;
+   1.  以 ``lab0-0`` 为例，下载克隆本次的实验repo 或 https://github.com/LearningOS/rCore-Tutorial-Code-2022A.git ； 在 ``lab0-0`` repo的根目录下，执行 ``make build_docker`` 来建立基于docker的开发环境;
    2. 在 ``lab0-0`` repo的根目录下执行 ``make docker`` 进入到 Docker 开发环境；
    3. 进入 Docker 之后，会发现当前处于根目录 ``/`` ，我们通过 ``cd os1`` 将当前工作路径切换到  ``lab0-0`` repo的根目录下；
    4. 接下来就可以在这个环境下进行实验了。例如 ``LOG=DEBUG make run`` 。

@@ -74,7 +74,7 @@ BigStride 表示一个预先定义的大常数，则该调度方案为每个进�
 
 实验要求
 +++++++++++++++++++++++++++++++++++++++++++++
-- `lab3(os5)参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os5-ref>`_
+- `lab3(os5)参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os5>`_
 - 实验目录在 ``os5`` 。注意在reports中放入lab1-3的所有报告。
 - 通过所有测例。
 
@@ -89,7 +89,7 @@ BigStride 表示一个预先定义的大常数，则该调度方案为每个进�
 
 - 开发并通过所有测例
 
-在 ``YOUR_LAB3_REPO_DIR`` 下进行编码（可学习参考 ``os5-ref/src`` 目录下的源代码，并在 ``os5/src`` 中完成编码），并进行编译测试。
+在 ``YOUR_LAB3_REPO_DIR`` 下进行编码（可学习参考 ``os5/src`` 目录下的源代码，并在 ``os5/src`` 中完成编码），并进行编译测试。
 
 .. note::
 

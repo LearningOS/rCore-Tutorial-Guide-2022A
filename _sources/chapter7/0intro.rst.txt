@@ -20,7 +20,7 @@
    $ git clone ``gitaddr of github-classroom-build-lab4``
    $ cd ``github-classroom-build-lab4`` 
    $ make setupclassroom_test6  //注意：这一步很重要，是用于github classroom自动评测你的工作。这一步只需在首次克隆项目仓库时执行一次，以后一般就不用执行了，除非 .github/workflows/classroom.yml发生了变化。
-   $ cd os7-ref
+   $ cd os7
    $ make run
 
 .. note::
@@ -35,11 +35,11 @@
    -  lab4：test6
    -  lab5：test8
 
-在 qemu 模拟器上运行  `os7参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os7-ref>`_  ：
+在 qemu 模拟器上运行  `os7参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os7>`_  ：
 
 .. code-block:: console
 
-   $ cd os7-ref
+   $ cd os7
    $ make run
 
 进入shell程序后，可以运行管道机制的简单测例 ``ch7b_pipetest``， ``ch7b_pipetest`` 需要保证父进程通过管道传输给子进程的字符串不会发生变化。
@@ -74,12 +74,12 @@
    Shell: Process 2 exited with code 0
    >>
 
-`os7参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os7-ref>`_  
+`os7参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os7>`_  
 -----------------------------------------------------------------------------------------------------------------
 
 .. code-block::
 
-    ── os7-ref
+    ── os7
        └── src
            ├── ...
            ├── fs

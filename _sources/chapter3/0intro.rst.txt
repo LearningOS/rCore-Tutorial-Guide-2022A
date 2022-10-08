@@ -54,11 +54,11 @@
    -  lab4：test6
    -  lab5：test8
 
-在 qemu 模拟器上运行 `lab1(os3)参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os3-ref>`_ ：
+在 qemu 模拟器上运行 `lab1(os3)参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os3>`_ ：
 
 .. code-block:: console
 
-   $ cd os3-ref
+   $ cd os3
    $ make run
 
 运行代码，看到用户程序交替输出信息：
@@ -165,12 +165,12 @@
    Panicked at src/task/mod.rs:98 All applications completed!
 
 
-`lab1(os3)参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os3-ref>`_
+`lab1(os3)参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os3>`_
 --------------------------------------------------------------------------------------------------------------------
 
 .. code-block::
 
-   ── os3-ref
+   ── os3
       ├── build.rs
       ├── Cargo.toml
       ├── Makefile
