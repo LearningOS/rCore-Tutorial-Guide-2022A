@@ -242,9 +242,9 @@ Qemu 模拟器安装
 .. code-block:: bash
 
    # 请注意，qemu-7.0.0 的父目录可以随着你的实际安装位置灵活调整
-   export PATH=$PATH:/home/shinbokuow/Downloads/built/qemu-7.0.0
-   export PATH=$PATH:/home/shinbokuow/Downloads/built/qemu-7.0.0/riscv64-softmmu
-   export PATH=$PATH:/home/shinbokuow/Downloads/built/qemu-7.0.0/riscv64-linux-user
+   export PATH=$PATH:/home/shinbokuow/Downloads/qemu-7.0.0/build
+   export PATH=$PATH:/home/shinbokuow/Downloads/qemu-7.0.0/build/riscv64-softmmu
+   export PATH=$PATH:/home/shinbokuow/Downloads/qemu-7.0.0/build/riscv64-linux-user
 
 随后即可在当前终端 ``source ~/.bashrc`` 更新系统路径，或者直接重启一个新的终端。
 
