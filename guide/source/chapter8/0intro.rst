@@ -122,11 +122,11 @@
    -  lab4：test6
    -  lab5：test8
   
-在 qemu 模拟器上运行本章代码 `lab5(os8)参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os8-ref>`_ ：
+在 qemu 模拟器上运行本章代码 `lab5(os8)参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os8>`_ ：
 
 .. code-block:: console
 
-   $ cd os8-ref
+   $ cd os8
    $ make run
 
 内核初始化完成之后就会进入 shell 程序，我们可以体会一下线程的创建和执行过程。在这里我们运行一下本章的测例 ``ch8b_threads`` ：
@@ -174,7 +174,7 @@
     平时，每个哲学家进行思考，饥饿时便试图拿起其左右最靠近他的筷子，只有在他拿到两只筷子时才能进餐。进餐完毕，放下筷子继续思考。
 
 
-本章的 `lab5(os8)参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os8-ref>`_  代码树
+本章的 `lab5(os8)参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os8>`_  代码树
 -----------------------------------------
 
 .. code-block::

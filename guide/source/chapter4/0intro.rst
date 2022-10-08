@@ -50,21 +50,21 @@
    -  lab4：test6
    -  lab5：test8
 
-在 qemu 模拟器上运行 `lab2(os4)参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os4-ref>`_ ：
+在 qemu 模拟器上运行 `lab2(os4)参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os4>`_ ：
 
 .. code-block:: console
 
-   $ cd os4-ref
+   $ cd os4
    $ make run
 
 
-`lab2(os4)参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os4-ref>`_
+`lab2(os4)参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os4>`_
 --------------------------------------------------------------------------------------------------------------------
 
 .. code-block::
   :linenos:
 
-  ├── os4-ref
+  ├── os4
   │   ├── ...
   │   └── src
   │       ├── ...
@@ -100,7 +100,7 @@
           ├── linker.ld(修改：将所有应用放在各自地址空间中固定的位置)
           └── ...
 
-   cloc os4-ref
+   cloc os4
    -------------------------------------------------------------------------------
    Language                     files          blank        comment           code
    -------------------------------------------------------------------------------

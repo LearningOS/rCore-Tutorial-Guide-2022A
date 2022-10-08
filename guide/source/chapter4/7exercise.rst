@@ -60,7 +60,7 @@ tips:
 实验要求
 ++++++++++++++++++++++++++++++++++++++++++
 
--  `lab2(os4)参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os4-ref>`_
+-  `lab2(os4)参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os4>`_
 - 在 ``os4`` 目录下，实现 mmap 和 munmap 两个系统调用，通过所有测例。
 - 报告命名 lab2.md，位于 ``reports`` 目录下
 
@@ -68,7 +68,7 @@ TIPS：注意 port 参数的语义，它与内核定义的 MapPermission 有明�
 
 - 开发并通过所有测例
 
-在 ``YOUR_LAB2_REPO_DIR`` 下进行编码（可学习参考 ``os4-ref/src`` 目录下的源代码，并在 ``os4/src`` 中完成编码），并进行编译测试。
+在 ``YOUR_LAB2_REPO_DIR`` 下进行编码（可学习参考 ``os4/src`` 目录下的源代码，并在 ``os4/src`` 中完成编码），并进行编译测试。
 
 .. note::
 

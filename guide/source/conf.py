@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Open-Source-OS-Training-Camp-2022'
+project = 'rCore-Tutorial-Guide-2022A'
 copyright = 'OS2022Summer'
 author = 'Yifan Wu'
 language = 'zh_CN'
@@ -39,7 +39,7 @@ extensions = [
 
 comments_config = {
    "utterances": {
-       "repo": "LearningOS/rust-based-os-comp2022",
+       "repo": "LearningOS/rCore-Tutorial-Guide-2022A",
        "issue-term": "pathname",
        "label": "comments",
        "theme": "github-light",

@@ -85,7 +85,7 @@ Lab4 编程作业
 
 实验要求
 +++++++++++++++++++++++++++++++++++++++++++++
--  `lab4(os6)参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os6-ref>`_ 
+-  `lab4(os6)参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os6>`_ 
 - 实验目录要求不变。
 - 通过所有测例。
 
@@ -104,7 +104,7 @@ Lab4 编程作业
 
 - 开发并通过所有测例
 
-在 ``YOUR_LAB4_REPO_DIR`` 下进行编码（可学习参考 ``os6-ref/src`` 目录下的源代码，并在 ``os6/src`` 中完成编码），并进行编译测试。
+在 ``YOUR_LAB4_REPO_DIR`` 下进行编码（可学习参考 ``os6/src`` 目录下的源代码，并在 ``os6/src`` 中完成编码），并进行编译测试。
 
 注意：本次实验需要扩展文件系统的功能，所以，除了需要修改扩展 ``os6`` 目录下的代码外，还需要修改扩展 ``easy-fs`` 和 ``easy-fs-fuse`` 下面的部分代码。
 

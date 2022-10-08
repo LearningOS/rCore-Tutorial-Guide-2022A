@@ -43,7 +43,7 @@ ch3 中，我们的系统已经能够支持多个任务分时轮流运行，我�
 实验要求
 +++++++++++++++++++++++++++++++++++++++++
 
-- `lab1(os3)参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os3-ref>`_
+- `lab1(os3)参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os3>`_
 
 - 实验目录要求
 
@@ -62,7 +62,7 @@ ch3 中，我们的系统已经能够支持多个任务分时轮流运行，我�
 
 - 开发并通过所有测例：
 
-   在 ``YOUR_LAB1_REPO_DIR`` 下进行编码（可学习参考 ``os3-ref/src`` 目录下的源代码，并在 ``os3/src`` 中完成编码），并进行编译测试。
+   在 ``YOUR_LAB1_REPO_DIR`` 下进行编码（可学习参考 ``os3/src`` 目录下的源代码，并在 ``os3/src`` 中完成编码），并进行编译测试。
 
    CI 使用的测例与本地相同，测试中，user 文件夹及其它与构建相关的文件将被替换，请不要试图依靠硬编码通过测试。
 
@@ -131,11 +131,11 @@ ch3 中，我们的系统已经能够支持多个任务分时轮流运行，我�
 --------------------------------------------
 
 1. 正确进入 U 态后，程序的特征还应有：使用 S 态特权指令，访问 S 态寄存器后会报错。
-   请同学们可以自行测试这些内容 (运行 `Rust 三个 bad 测例 (ch2b_bad_*.rs) <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/user/src/bin>`_ ，
+   请同学们可以自行测试这些内容 (运行 `Rust 三个 bad 测例 (ch2b_bad_*.rs) <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/user/src/bin>`_ ，
    注意在编译时至少需要指定 ``LOG=ERROR`` 才能观察到内核的报错信息) ，
    描述程序出错行为，同时注意注明你使用的 sbi 及其版本。
 
-2. 深入理解 `trap.S <https://github.com/LearningOS/rust-based-os-comp2022/blob/main/os3-ref/src/trap/trap.S>`_
+2. 深入理解 `trap.S <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/blob/main/os3/src/trap/trap.S>`_
    中两个函数 ``__alltraps`` 和 ``__restore`` 的作用，并回答如下问题:
 
    1. L40：刚进入 ``__restore`` 时，``a0`` 代表了什么值。请指出 ``__restore`` 的两种使用情景。

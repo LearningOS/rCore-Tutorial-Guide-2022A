@@ -38,14 +38,14 @@
 -------------------------------------------
 
 
-在 qemu 模拟器上运行`lab3(os5)参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os5-ref>`_ ：
+在 qemu 模拟器上运行`lab3(os5)参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os5>`_ ：
 
 .. code-block:: console
 
    $ git clone ``gitaddr of github-classroom-build-lab3``
    $ cd ``github-classroom-build-lab3`` 
    $ make setupclassroom_test5  //注意：这一步很重要，是用于github classroom自动评测你的工作。这一步只需在首次克隆项目仓库时执行一次，以后一般就不用执行了，除非 .github/workflows/classroom.yml发生了变化。   
-   $ cd os5-ref
+   $ cd os5
    $ make run
 
 
@@ -120,13 +120,13 @@
    child process pid = 3, exit code = 100
    Shell: Process 2 exited with code 0
 
-`lab3(os5)参考框架: <https://github.com/LearningOS/rust-based-os-comp2022/tree/main/os5-ref>`_
+`lab3(os5)参考框架: <https://github.com/LearningOS/rCore-Tutorial-Code-2022A/tree/main/os5>`_
 ----------------------------------------------------------------------------------------------------------------------
 
 .. code-block::
    :linenos:
 
-   ├── os5-ref
+   ├── os5
       ├── build.rs(修改：基于应用名的应用构建器)
       ├── ...
       └── src
